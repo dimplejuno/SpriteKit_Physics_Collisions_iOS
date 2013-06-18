@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SpriteKItViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) SpriteKItViewController *viewController;
 
 @end

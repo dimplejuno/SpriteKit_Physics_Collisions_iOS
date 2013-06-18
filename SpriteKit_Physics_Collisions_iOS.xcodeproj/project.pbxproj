@@ -13,15 +13,19 @@
 		23795C02177029B200C837B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23795C00177029B200C837B7 /* InfoPlist.strings */; };
 		23795C04177029B200C837B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23795C03177029B200C837B7 /* main.m */; };
 		23795C08177029B200C837B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23795C07177029B200C837B7 /* AppDelegate.m */; };
-		23795C0B177029B200C837B7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23795C09177029B200C837B7 /* Main_iPhone.storyboard */; };
-		23795C0E177029B200C837B7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23795C0C177029B200C837B7 /* Main_iPad.storyboard */; };
-		23795C11177029B200C837B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23795C10177029B200C837B7 /* ViewController.m */; };
 		23795C13177029B200C837B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23795C12177029B200C837B7 /* Images.xcassets */; };
 		23795C1A177029B200C837B7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23795C19177029B200C837B7 /* XCTest.framework */; };
 		23795C1B177029B200C837B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23795BF7177029B200C837B7 /* Foundation.framework */; };
 		23795C1C177029B200C837B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23795BFB177029B200C837B7 /* UIKit.framework */; };
 		23795C24177029B200C837B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23795C22177029B200C837B7 /* InfoPlist.strings */; };
 		23795C26177029B200C837B7 /* SpriteKit_Physics_Collisions_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23795C25177029B200C837B7 /* SpriteKit_Physics_Collisions_iOSTests.m */; };
+		23795C3317702A7800C837B7 /* damage.sks in Resources */ = {isa = PBXBuildFile; fileRef = 23795C2F17702A7800C837B7 /* damage.sks */; };
+		23795C3417702A7800C837B7 /* exhaust.sks in Resources */ = {isa = PBXBuildFile; fileRef = 23795C3017702A7800C837B7 /* exhaust.sks */; };
+		23795C3517702A7800C837B7 /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 23795C3117702A7800C837B7 /* explosion.sks */; };
+		23795C3617702A7800C837B7 /* missile.sks in Resources */ = {isa = PBXBuildFile; fileRef = 23795C3217702A7800C837B7 /* missile.sks */; };
+		23795C3B17702A9200C837B7 /* APLShipSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 23795C3817702A9200C837B7 /* APLShipSprite.m */; };
+		23795C3C17702A9200C837B7 /* APLSpaceScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 23795C3A17702A9200C837B7 /* APLSpaceScene.m */; };
+		23795C3F17702BFE00C837B7 /* SpriteKItViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23795C3E17702BFE00C837B7 /* SpriteKItViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,16 +49,22 @@
 		23795C05177029B200C837B7 /* SpriteKit_Physics_Collisions_iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpriteKit_Physics_Collisions_iOS-Prefix.pch"; sourceTree = "<group>"; };
 		23795C06177029B200C837B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23795C07177029B200C837B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		23795C0A177029B200C837B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		23795C0D177029B200C837B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		23795C0F177029B200C837B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		23795C10177029B200C837B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		23795C12177029B200C837B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		23795C18177029B200C837B7 /* SpriteKit_Physics_Collisions_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKit_Physics_Collisions_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23795C19177029B200C837B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		23795C21177029B200C837B7 /* SpriteKit_Physics_Collisions_iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKit_Physics_Collisions_iOSTests-Info.plist"; sourceTree = "<group>"; };
 		23795C23177029B200C837B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		23795C25177029B200C837B7 /* SpriteKit_Physics_Collisions_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKit_Physics_Collisions_iOSTests.m; sourceTree = "<group>"; };
+		23795C2F17702A7800C837B7 /* damage.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = damage.sks; sourceTree = "<group>"; };
+		23795C3017702A7800C837B7 /* exhaust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = exhaust.sks; sourceTree = "<group>"; };
+		23795C3117702A7800C837B7 /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		23795C3217702A7800C837B7 /* missile.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = missile.sks; sourceTree = "<group>"; };
+		23795C3717702A9200C837B7 /* APLShipSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLShipSprite.h; sourceTree = "<group>"; };
+		23795C3817702A9200C837B7 /* APLShipSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLShipSprite.m; sourceTree = "<group>"; };
+		23795C3917702A9200C837B7 /* APLSpaceScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLSpaceScene.h; sourceTree = "<group>"; };
+		23795C3A17702A9200C837B7 /* APLSpaceScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLSpaceScene.m; sourceTree = "<group>"; };
+		23795C3D17702BFE00C837B7 /* SpriteKItViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteKItViewController.h; sourceTree = "<group>"; };
+		23795C3E17702BFE00C837B7 /* SpriteKItViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteKItViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +124,18 @@
 		23795BFD177029B200C837B7 /* SpriteKit_Physics_Collisions_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				23795C3D17702BFE00C837B7 /* SpriteKItViewController.h */,
+				23795C3E17702BFE00C837B7 /* SpriteKItViewController.m */,
+				23795C3717702A9200C837B7 /* APLShipSprite.h */,
+				23795C3817702A9200C837B7 /* APLShipSprite.m */,
+				23795C3917702A9200C837B7 /* APLSpaceScene.h */,
+				23795C3A17702A9200C837B7 /* APLSpaceScene.m */,
+				23795C2F17702A7800C837B7 /* damage.sks */,
+				23795C3017702A7800C837B7 /* exhaust.sks */,
+				23795C3117702A7800C837B7 /* explosion.sks */,
+				23795C3217702A7800C837B7 /* missile.sks */,
 				23795C06177029B200C837B7 /* AppDelegate.h */,
 				23795C07177029B200C837B7 /* AppDelegate.m */,
-				23795C09177029B200C837B7 /* Main_iPhone.storyboard */,
-				23795C0C177029B200C837B7 /* Main_iPad.storyboard */,
-				23795C0F177029B200C837B7 /* ViewController.h */,
-				23795C10177029B200C837B7 /* ViewController.m */,
 				23795C12177029B200C837B7 /* Images.xcassets */,
 				23795BFE177029B200C837B7 /* Supporting Files */,
 			);
@@ -231,9 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23795C0E177029B200C837B7 /* Main_iPad.storyboard in Resources */,
+				23795C3617702A7800C837B7 /* missile.sks in Resources */,
+				23795C3417702A7800C837B7 /* exhaust.sks in Resources */,
 				23795C13177029B200C837B7 /* Images.xcassets in Resources */,
-				23795C0B177029B200C837B7 /* Main_iPhone.storyboard in Resources */,
+				23795C3517702A7800C837B7 /* explosion.sks in Resources */,
+				23795C3317702A7800C837B7 /* damage.sks in Resources */,
 				23795C02177029B200C837B7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,9 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23795C11177029B200C837B7 /* ViewController.m in Sources */,
+				23795C3F17702BFE00C837B7 /* SpriteKItViewController.m in Sources */,
 				23795C08177029B200C837B7 /* AppDelegate.m in Sources */,
+				23795C3B17702A9200C837B7 /* APLShipSprite.m in Sources */,
 				23795C04177029B200C837B7 /* main.m in Sources */,
+				23795C3C17702A9200C837B7 /* APLSpaceScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,22 +304,6 @@
 				23795C01177029B200C837B7 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		23795C09177029B200C837B7 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				23795C0A177029B200C837B7 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		23795C0C177029B200C837B7 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				23795C0D177029B200C837B7 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		23795C22177029B200C837B7 /* InfoPlist.strings */ = {
