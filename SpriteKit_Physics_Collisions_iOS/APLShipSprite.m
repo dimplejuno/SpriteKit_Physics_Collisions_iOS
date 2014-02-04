@@ -242,8 +242,8 @@ static inline CGFloat myRand(CGFloat low, CGFloat high) {
         explosion.physicsBody.collisionBitMask = 0;
         explosion.physicsBody.contactTestBitMask = 0;
         explosion.physicsBody.categoryBitMask = 0;
-        
-        explosion.physicsBody.velocity = CGPointMake(cos(angle)*speed,sin(angle)*speed);
+
+        explosion.physicsBody.velocity = CGVectorMake(cos(angle)*speed,sin(angle)*speed);
         [scene addChild:explosion];
     }
     
@@ -273,7 +273,7 @@ static inline CGFloat myRand(CGFloat low, CGFloat high) {
      */
     
     CGFloat shipDirection = [self shipOrientation];
-    [self.physicsBody applyImpulse:CGPointMake(mainEngineThrust*cosf(shipDirection), mainEngineThrust*sinf(shipDirection))];
+    [self.physicsBody applyImpulse:CGVectorMake(mainEngineThrust*cosf(shipDirection), mainEngineThrust*sinf(shipDirection))];
     
     [self makeExhaustNodeIfNeeded];
     self.exhaustNode.particleAlpha = self.engineEngagedAlpha;
@@ -300,7 +300,7 @@ static inline CGFloat myRand(CGFloat low, CGFloat high) {
     CGFloat reverseDirection = [self shipOrientation] +  M_PI;
     
     // calculate an impulse to thrust the ship forward.
-    [self.physicsBody applyImpulse:CGPointMake(reverseThrust*cosf(reverseDirection), reverseThrust*sinf(reverseDirection))];
+    [self.physicsBody applyImpulse:CGVectorMake(reverseThrust*cosf(reverseDirection), reverseThrust*sinf(reverseDirection))];
 }
 
 - (void)rotateShipLeft
@@ -340,7 +340,7 @@ static inline CGFloat myRand(CGFloat low, CGFloat high) {
         
         // Start with the ship's velocity, and then give it a little kick.
         missile.physicsBody.velocity = self.physicsBody.velocity;
-        [missile.physicsBody applyImpulse: CGPointMake(missileLaunchImpulse*cosf(shipDirection),
+        [missile.physicsBody applyImpulse: CGVectorMake(missileLaunchImpulse*cosf(shipDirection),
                                                        missileLaunchImpulse*sinf(shipDirection))];
     }
 }

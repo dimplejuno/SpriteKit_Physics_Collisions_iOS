@@ -111,7 +111,7 @@ static const NSInteger missileDamage = 1;
     self.physicsBody.categoryBitMask = edgeCategory;
     self.physicsBody.collisionBitMask = 0;
     self.physicsBody.contactTestBitMask = 0;
-    self.physicsWorld.gravity = CGPointMake(0,0);
+    self.physicsWorld.gravity = CGVectorMake(0,0);
     self.physicsWorld.contactDelegate = self;
     
     /* 
